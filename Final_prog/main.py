@@ -203,7 +203,7 @@ def raschet_end(message):
 
     en_eff = size_1 * home_coef + lights_1 * light_coef + device_1 * devices_coef
     bot.reply_to(message, 'Энергоэффективность вашего дома(это хорошо если она меньше 150 баллов и плохо если она больше 300 баллов):')
-    bot.reply_to(message, en_eff + ' баллов')
+    bot.reply_to(message, en_eff)
 
 
 
